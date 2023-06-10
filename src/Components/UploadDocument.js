@@ -37,7 +37,7 @@ const UploadDocument = ({ onDocumentDataReceived }) => {
     <>
       <input
         type="file"
-        accept=".txt,.pdf,.docx,.png,.jpg,.jpeg"
+        accept=".pdf,.docx"
         onChange={handleFileChange}
         style={{ display: "none" }}
         id="fileInput"
